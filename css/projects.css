@@ -1,0 +1,133 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(145deg, #1c1c1c, #121212);
+    border-bottom: 2px solid #333;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #00aaff; /* Electric Blue */
+    text-shadow: 0px 0px 8px rgba(0, 170, 255, 0.6);
+}
+
+.hero p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    color: #121212;
+    background-color: #00aaff; /* Electric Blue */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #008fcc;
+}
+
+/* Navigation */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #00aaff; /* Electric Blue */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+/* Content and Card Styling */
+.content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #00aaff; /* Electric Blue */
+}
+
+.card {
+    background: #1c1c1c;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 170, 255, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 170, 255, 0.4);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #b0b0b0;
+}
+
+.card button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    color: #121212;
+    background-color: #00aaff; /* Electric Blue */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #008fcc;
+}
